@@ -17,7 +17,7 @@ jobs:
           cd ./src/backdoor-demo
           npm install
 
-      - uses: madhead/semver-utils@6baf9abaf54c02482db5bf0e260e04ff031a0f5e # latest
+      - uses: madhead/semver-utils@6692a9cebf842cc697ce45dd058b09a6297cef02 # latest
         id: version
         with:
           version: 1.2.3
