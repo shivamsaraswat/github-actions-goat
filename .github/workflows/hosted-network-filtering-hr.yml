@@ -32,7 +32,7 @@ jobs:
         with:
           path: src/exfiltration-demo
 
-      - uses: madhead/semver-utils@6692a9cebf842cc697ce45dd058b09a6297cef02 # latest
+      - uses: madhead/semver-utils@36d1e0ed361bd7b4b77665de8093092eaeabe6ba # latest
         id: version
         with:
           version: 1.2.3
